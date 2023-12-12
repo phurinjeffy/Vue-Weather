@@ -33,7 +33,7 @@ export default {
   name: "app",
   data() {
     return {
-      api_key: config.apiKey,
+      api_key: config.apiKey, // ADD YOUR OWN API KEY
       api_base: "https://api.openweathermap.org/data/2.5/",
       query: "",
       weather: {}
